@@ -1,0 +1,33 @@
+/* Write your CSS here */
+* {
+  margin: 0px;
+  font-family: 'Bree Serif';
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e293b;
+  height: 100vh;
+}
+
+.heading {
+  color: #f0bb03;
+  margin: 10px;
+}
+
+.description {
+  color: #ffffff;
+  margin: 10px;
+}
+
+.subscribe-button {
+  background-color: #ffffff;
+  color: #1e293b;
+  border-width: 0px;
+  border-radius: 3px;
+  padding: 5px;
+  margin: 10px;
+}
